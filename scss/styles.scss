@@ -1,0 +1,100 @@
+.body {
+    background-color: rgba(20, 21, 25, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(rgba(35, 42, 50, 255),rgba(23, 30, 40, 255));
+    border-radius: 40px;
+    align-self:center;
+}
+
+.circle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(38, 47, 56, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin: 50px;
+    position: absolute;
+    font-family: Roboto;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    top: 250px;
+    line-height:25px;
+}
+
+.button{
+    display:inline;
+    position:relative;
+    margin:5px;
+    top:250px;
+    left:40px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:none;
+    background-color:rgba(38, 47, 54, 255);
+    color:rgba(134, 143, 152, 255);
+    font-family:Roboto;
+    font-size:15px;
+    
+}
+
+.button:hover{
+    background-color:rgba(255, 117, 16, 255);
+    color:white;
+}
+
+.button:focus{
+    background-color: rgba(124, 136, 152, 255);
+    color:white;
+}
+
+.sub {
+    position: relative;
+    top: 210px;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 300px;
+    margin: 50px;
+    background-color: rgba(255, 117, 16, 255);
+    color:white;
+    font-family:Roboto;
+    font-size:15px;
+}
+
+.sub:hover {
+    background-color: white;
+    color: rgba(255, 117, 16, 255);
+}
+
+.ana{
+    display:block;
+    }
+.centr {
+    position:relative;
+    left:100px;
+    top:50px;
+}
+
+.centrr {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:50px;
+    margin:50px;
+}
